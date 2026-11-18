@@ -1,0 +1,1 @@
+Extract the promoter_assignment_data zip file in this (data) file.

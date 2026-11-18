@@ -1,0 +1,13 @@
+Model,k,Best CV F1,Best Parameters
+Logistic Regression,2,0.7765209612625673,"{'classifier__C': 10, 'classifier__solver': 'liblinear'}"
+SVM,2,0.7762041243836527,"{'classifier__C': 10, 'classifier__kernel': 'linear'}"
+Random Forest,2,0.7730852785519794,"{'classifier__max_depth': 20, 'classifier__max_features': 'sqrt', 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}"
+XGBoost,2,0.7737393157460255,"{'classifier__colsample_bytree': 0.8, 'classifier__learning_rate': 0.03, 'classifier__max_depth': 3, 'classifier__n_estimators': 400, 'classifier__subsample': 0.8}"
+Logistic Regression,3,0.7931401429748599,"{'classifier__C': 0.1, 'classifier__solver': 'liblinear'}"
+SVM,3,0.7955459967221413,"{'classifier__C': 1, 'classifier__gamma': 'scale', 'classifier__kernel': 'rbf'}"
+Random Forest,3,0.7837121239656961,"{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_split': 2, 'classifier__n_estimators': 500}"
+XGBoost,3,0.7881186435328907,"{'classifier__colsample_bytree': 0.8, 'classifier__learning_rate': 0.03, 'classifier__max_depth': 5, 'classifier__n_estimators': 400, 'classifier__subsample': 0.8}"
+Logistic Regression,4,0.7858373795766724,"{'classifier__C': 0.1, 'classifier__solver': 'lbfgs'}"
+SVM,4,0.7999041509777943,"{'classifier__C': 10, 'classifier__gamma': 'scale', 'classifier__kernel': 'rbf'}"
+Random Forest,4,0.7872580120616319,"{'classifier__max_depth': 20, 'classifier__max_features': 'sqrt', 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}"
+XGBoost,4,0.7951967737903525,"{'classifier__colsample_bytree': 1.0, 'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 400, 'classifier__subsample': 0.8}"
